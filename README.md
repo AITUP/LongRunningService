@@ -1,0 +1,3 @@
+This is an implementation of Somenath Mukhopadhyay's example entitled "Implementing a State Machine for a Long Running Background Task Running in Android Service" found on the DZone/Mobile website: http://www.dzone.com/articles/implementing-state-machine?mz=27249-mobile
+
+The purpose of the article/code example is to demonstrate communicating from a background service to the frontend UI through Android messenger framework.  
