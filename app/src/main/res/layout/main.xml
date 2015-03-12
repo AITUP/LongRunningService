@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/message_nbr_label"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="Message Nbr:"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/message_nbr"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/message_nbr_label"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/message_presentation_label"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_nbr_label"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="Message:"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/message_presentation"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_presentation_label"
+        android:maxLines="20"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black"
+        android:text="Start Service"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
